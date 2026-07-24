@@ -130,9 +130,9 @@
   "proker": [
     {
       "id": "proker-01-contoh",
-      "nama": "Nama Program Kerja",
+      "nama": "Program Kerja 1",
       "divisi": "Divisi Acara",
-      "deskripsi": "Deskripsi singkat mengenai program kerja ini, tujuan, dan sasarannya.",
+      "deskripsi": "Placeholder Deskripsi singkat.",
       "tanggal": null,
       "foto": "assets/img/kkn/proker-01-contoh.png"
     }
