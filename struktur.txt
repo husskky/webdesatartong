@@ -1,0 +1,113 @@
+Folder PATH listing for volume Windows
+Volume serial number is 000000BF 94F5:BCCE
+C:.
+¦   CNAME
+¦   index.html
+¦   kkn.html
+¦   struktur.txt
+¦   
++---assets
+¦   +---css
+¦   ¦       style.css
+¦   ¦       
+¦   +---img
+¦   ¦   +---brand
+¦   ¦   ¦       logo-desa-nav.png
+¦   ¦   ¦       logo-desa.png
+¦   ¦   ¦       slogan-bergerak.png
+¦   ¦   ¦       
+¦   ¦   +---hero
+¦   ¦   ¦       hero-01-sawah-taringgul.jpg
+¦   ¦   ¦       
+¦   ¦   +---kkn
+¦   ¦   ¦       anggota-acara-01.png
+¦   ¦   ¦       anggota-acara-02.png
+¦   ¦   ¦       anggota-acara-03.png
+¦   ¦   ¦       anggota-bph-01.png
+¦   ¦   ¦       anggota-bph-02.png
+¦   ¦   ¦       anggota-bph-03.png
+¦   ¦   ¦       anggota-dpl-01.png
+¦   ¦   ¦       anggota-humas-01.png
+¦   ¦   ¦       anggota-humas-02.png
+¦   ¦   ¦       anggota-logsum-01.png
+¦   ¦   ¦       anggota-logsum-02.png
+¦   ¦   ¦       anggota-logsum-03.png
+¦   ¦   ¦       anggota-pdd-01.png
+¦   ¦   ¦       anggota-pdd-02.png
+¦   ¦   ¦       
+¦   ¦   +---umkm
+¦   ¦   ¦       umkm-01-toko-fatih-77-2.jpg
+¦   ¦   ¦       umkm-01-toko-fatih-77.jpg
+¦   ¦   ¦       umkm-02-warung-bu-nur-2.jpg
+¦   ¦   ¦       umkm-02-warung-bu-nur.jpg
+¦   ¦   ¦       umkm-03-cipta-mandiri-cell-2.jpg
+¦   ¦   ¦       umkm-03-cipta-mandiri-cell-3.jpg
+¦   ¦   ¦       umkm-03-cipta-mandiri-cell-4.jpg
+¦   ¦   ¦       umkm-03-cipta-mandiri-cell.jpg
+¦   ¦   ¦       umkm-04-bintang-jaya-tailor-2.jpg
+¦   ¦   ¦       umkm-04-bintang-jaya-tailor-3.jpg
+¦   ¦   ¦       umkm-04-bintang-jaya-tailor.jpg
+¦   ¦   ¦       umkm-05-warung-nasi-ibu-lilis.jpg
+¦   ¦   ¦       umkm-06-warung-sayur-teh-amoi-2.jpg
+¦   ¦   ¦       umkm-06-warung-sayur-teh-amoi.jpg
+¦   ¦   ¦       umkm-07-toko-tani-jimar-1.jpg
+¦   ¦   ¦       umkm-07-toko-tani-jimar.jpg
+¦   ¦   ¦       umkm-08-seblak-keramat-2.jpg
+¦   ¦   ¦       umkm-08-seblak-keramat.jpg
+¦   ¦   ¦       umkm-09-toko-astar-2.jpg
+¦   ¦   ¦       umkm-09-toko-astar.jpg
+¦   ¦   ¦       umkm-10-toko-bangunan-najmi-2.jpg
+¦   ¦   ¦       umkm-10-toko-bangunan-najmi.jpg
+¦   ¦   ¦       umkm-11-toko-keken-2.jpg
+¦   ¦   ¦       umkm-11-toko-keken.jpg
+¦   ¦   ¦       umkm-12-alfan-cell-2.jpg
+¦   ¦   ¦       umkm-12-alfan-cell.jpg
+¦   ¦   ¦       umkm-13-bakso-haji-hasan-2.jpg
+¦   ¦   ¦       umkm-13-bakso-haji-hasan.jpg
+¦   ¦   ¦       umkm-14-pom-mini-taringgul-tonggoh.jpg
+¦   ¦   ¦       umkm-15-warung-ibu-neah.jpg
+¦   ¦   ¦       umkm-16-toko-nur.jpg
+¦   ¦   ¦       umkm-17-warung-teh-rina-2.jpg
+¦   ¦   ¦       umkm-17-warung-teh-rina.jpg
+¦   ¦   ¦       umkm-18-warung-pak-hamdani.jpg
+¦   ¦   ¦       umkm-19-warung-bu-mala.jpg
+¦   ¦   ¦       umkm-20-paija-jahra.jpg
+¦   ¦   ¦       umkm-21-toko-karya-laksana-2.jpg
+¦   ¦   ¦       umkm-21-toko-karya-laksana.jpg
+¦   ¦   ¦       umkm-22-bubur-ayam-ozan.jpg
+¦   ¦   ¦       umkm-23-daffa-kuliner.jpg
+¦   ¦   ¦       umkm-24-sembilan-cell-2.png
+¦   ¦   ¦       umkm-24-sembilan-cell.png
+¦   ¦   ¦       umkm-25-mulya-anugrah.png
+¦   ¦   ¦       umkm-26-mamah-aden-2.jpg
+¦   ¦   ¦       umkm-26-mamah-aden.jpg
+¦   ¦   ¦       umkm-28-berkah-tobacco-2.jpg
+¦   ¦   ¦       umkm-28-berkah-tobacco.jpg
+¦   ¦   ¦       umkm-29-maju-jaya.jpg
+¦   ¦   ¦       umkm-30-setia-2.jpg
+¦   ¦   ¦       umkm-30-setia.jpg
+¦   ¦   ¦       umkm-31-mammochi.jpg
+¦   ¦   ¦       umkm-32-anneka.jpg
+¦   ¦   ¦       umkm-33-toko-atin-2.jpg
+¦   ¦   ¦       umkm-33-toko-atin.jpg
+¦   ¦   ¦       umkm-34-warung-teh-tika-2.jpg
+¦   ¦   ¦       umkm-34-warung-teh-tika.jpg
+¦   ¦   ¦       umkm-35-zam-zam-koi-purwakarta.jpg
+¦   ¦   ¦       umkm-36-toko-haji-edi-2.jpg
+¦   ¦   ¦       umkm-36-toko-haji-edi.jpg
+¦   ¦   ¦       umkm-37-lalada.png
+¦   ¦   ¦       
+¦   ¦   +---wisata
+¦   ¦           wisata-01-porlakjahe-02.png
+¦   ¦           wisata-01-porlakjahe.png
+¦   ¦           
+¦   +---js
+¦           kkn.js
+¦           main.js
+¦           
++---data
+        desa.json
+        kkn.json
+        umkm.json
+        wisata.json
+        

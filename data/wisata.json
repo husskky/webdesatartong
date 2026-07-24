@@ -1,0 +1,18 @@
+{
+  "wisata": [
+    {
+      "id": "wisata-01-Skypool-Porlak-JaHe-GTK",
+      "no": 1,
+      "nama": "Skypool Porlak JaHe - Giri Tirta Kahuripan",
+      "kategori": "Resort",
+      "deskripsi": "Skypool Porlak Jahe – GTK Resort di Purwakarta adalah destinasi wisata unik yang menawarkan sensasi berenang di atas awan dengan panorama pegunungan dan lembah yang menawan. Terletak di kawasan dataran tinggi Giri Tirta Kahuripan, spot ini menjadi daya tarik utama bagi wisatawan yang mencari pengalaman berbeda, baik untuk sekadar berenang maupun menginap di villa bernuansa alam.",
+      "jam_buka": null,
+      "alamat": "Resort Giri Tirta Kahuripan, Taringgul Tonggoh, Kec. Wanayasa, Kabupaten Purwakarta, Jawa Barat 41174",
+      "link_gmaps": "https://maps.app.goo.gl/wWmSmjFvRLBt2Jbp8",
+      "foto": [
+        "assets/img/wisata/wisata-01-porlakjahe-02.png",
+        "assets/img/wisata/wisata-01-porlakjahe.png"
+      ]
+    }
+  ]
+}

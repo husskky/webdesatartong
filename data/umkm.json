@@ -1,0 +1,589 @@
+    {
+    "umkm": [
+        {
+        "id": "umkm-01-toko-fatih-77",
+        "no": 1,
+        "nama": "Toko Fatih 77",
+        "kategori": "Lainnya",
+        "kategori_asli": "Toko pakan/hewan & alat pancing",
+        "jam_buka": "Setiap hari, 07.00–20.00",
+        "alamat": "Dusun Krajan RT 09, RW 03",
+        "produk": "Pakan burung, pakan kucing, pakan ikan, alat mancing",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/ADpVyaeRVyqhzDmU9",
+        "foto": [
+            "assets/img/umkm/umkm-01-toko-fatih-77.jpg",
+            "assets/img/umkm/umkm-01-toko-fatih-77-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-02-warung-bu-nur",
+        "no": 2,
+        "nama": "Warung Bu Nur",
+        "kategori": "Makanan",
+        "kategori_asli": "Makanan",
+        "jam_buka": "Setiap hari, 05.00–07.00 dan 10.00–22.00",
+        "alamat": "Dusun Krajan RT 08, RW 03",
+        "produk": "Pagi: nasi uduk; siang–malam: chicken",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/5BtUGS1JpP6Etu257",
+        "foto": [
+            "assets/img/umkm/umkm-02-warung-bu-nur-2.jpg",
+            "assets/img/umkm/umkm-02-warung-bu-nur.jpg"
+        ]
+        },
+        {
+        "id": "umkm-03-cipta-mandiri-cell",
+        "no": 3,
+        "nama": "Cipta Mandiri Cell",
+        "kategori": "Cell / Konter",
+        "kategori_asli": "Cell/Service HP",
+        "jam_buka": "Setiap hari, 08.00–22.00",
+        "alamat": "Dusun Krajan RT 01, RW 01",
+        "produk": "Service HP",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/mfXvLcEPGB7Aczsj8",
+        "foto": [
+            "assets/img/umkm/umkm-03-cipta-mandiri-cell-4.jpg",
+            "assets/img/umkm/umkm-03-cipta-mandiri-cell-2.jpg",
+            "assets/img/umkm/umkm-03-cipta-mandiri-cell-3.jpg",
+            "assets/img/umkm/umkm-03-cipta-mandiri-cell.jpg"
+        ]
+        },
+        {
+        "id": "umkm-04-bintang-jaya-tailor",
+        "no": 4,
+        "nama": "Bintang Jaya Tailor",
+        "kategori": "Jasa",
+        "kategori_asli": "Jasa jahit/tailor",
+        "jam_buka": "Setiap hari, 08.00–16.00",
+        "alamat": "Dusun Krajan RT 01, RW 01",
+        "produk": "Vermak, toko jahit",
+        "no_wa": "6283152672124",
+        "link_wa": "https://wa.me/6283152672124",
+        "link_gmaps": "https://maps.app.goo.gl/XH4pxmYbh63YwAvn8",
+        "foto": [
+            "assets/img/umkm/umkm-04-bintang-jaya-tailor-2.jpg",
+            "assets/img/umkm/umkm-04-bintang-jaya-tailor.jpg",
+            "assets/img/umkm/umkm-04-bintang-jaya-tailor-3.jpg"
+        ]
+        },
+        {
+        "id": "umkm-05-warung-nasi-ibu-lilis",
+        "no": 5,
+        "nama": "Warung Nasi Ibu Lilis",
+        "kategori": "Makanan",
+        "kategori_asli": "Makanan",
+        "jam_buka": "Setiap hari, 06.00–20.00",
+        "alamat": "Dusun Krajan RT 08, RW 03",
+        "produk": "Warteg",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/sQBNtzwN4zuGx4rm7",
+        "foto": "assets/img/umkm/umkm-05-warung-nasi-ibu-lilis.jpg"
+        },
+        {
+        "id": "umkm-06-warung-sayur-teh-amoi",
+        "no": 6,
+        "nama": "Warung Sayur Teh Amoi",
+        "kategori": "Sembako",
+        "kategori_asli": "Toko sayur",
+        "jam_buka": "Setiap hari, 08.00–21.00",
+        "alamat": "Dusun Krajan RT 02, RW 05",
+        "produk": "Sayuran",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/q9dzPmmLc61Lntmt5",
+        "foto": [
+            "assets/img/umkm/umkm-06-warung-sayur-teh-amoi.jpg",
+            "assets/img/umkm/umkm-06-warung-sayur-teh-amoi-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-07-toko-tani-jimar",
+        "no": 7,
+        "nama": "Toko Tani Jimar",
+        "kategori": "Lainnya",
+        "kategori_asli": "Toko tani/pakan hewan",
+        "jam_buka": "Setiap hari, 07.00–19.00",
+        "alamat": "Dusun Krajan RT 04, RW 03",
+        "produk": "Pakan burung, pupuk, pakan kucing",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/Xh7rauebQSQaaAdG7",
+        "foto": [
+            "assets/img/umkm/umkm-07-toko-tani-jimar.jpg",
+            "assets/img/umkm/umkm-07-toko-tani-jimar-1.jpg"
+        ]
+        },
+        {
+        "id": "umkm-08-seblak-keramat",
+        "no": 8,
+        "nama": "Seblak Keramat",
+        "kategori": "Makanan",
+        "kategori_asli": "Makanan",
+        "jam_buka": "Sabtu–Kamis, 09.00–22.00 [Jumat libur]",
+        "alamat": "Dusun Peuntas RT 10, RW 04",
+        "produk": "Seblak",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/cnd5Qhh7j5XEz6e49",
+        "foto": [
+            "assets/img/umkm/umkm-08-seblak-keramat.jpg",
+            "assets/img/umkm/umkm-08-seblak-keramat-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-09-toko-astar",
+        "no": 9,
+        "nama": "Toko Astar",
+        "kategori": "Makanan",
+        "kategori_asli": "Oleh-oleh/makanan ringan",
+        "jam_buka": "Setiap Hari, 08.00–21.00",
+        "alamat": "Dusun Krajan RT 08, RW 03",
+        "produk": "Simping, semprong",
+        "no_wa": "6285659049454",
+        "link_wa": "https://wa.me/6285659049454",
+        "link_gmaps": "https://maps.app.goo.gl/Ap2SMQDcn9bRxJvg7",
+        "foto": [
+            "assets/img/umkm/umkm-09-toko-astar.jpg",
+            "assets/img/umkm/umkm-09-toko-astar-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-10-toko-bangunan-najmi",
+        "no": 10,
+        "nama": "Toko Bangunan Najmi",
+        "kategori": "Bangunan",
+        "kategori_asli": "Toko bangunan",
+        "jam_buka": "Setiap Hari, 07.00–16.00",
+        "alamat": "Dusun Krajan RT 08, RW 03",
+        "produk": "Bahan bangunan",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/p4fjA21DNkAC4G3i9",
+        "foto": [
+            "assets/img/umkm/umkm-10-toko-bangunan-najmi.jpg",
+            "assets/img/umkm/umkm-10-toko-bangunan-najmi-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-11-toko-keken",
+        "no": 11,
+        "nama": "Toko Keken",
+        "kategori": "Sembako",
+        "kategori_asli": "Toko sembako",
+        "jam_buka": "Setiap Hari, 06.00–16.00",
+        "alamat": "Dusun Krajan RT 01, RW 01",
+        "produk": "Sembako",
+        "no_wa": "6285215060457",
+        "link_wa": "https://wa.me/6285215060457",
+        "link_gmaps": "https://maps.app.goo.gl/VUidafL7parDzsbh6",
+        "foto": [
+            "assets/img/umkm/umkm-11-toko-keken.jpg",
+            "assets/img/umkm/umkm-11-toko-keken-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-12-Alfan-cell",
+        "no": 12,
+        "nama": "Alfan Cell",
+        "kategori": "Cell / Konter",
+        "kategori_asli": "Cell/Konter",
+        "jam_buka": "Setiap Hari, 06.00–21.00",
+        "alamat": "Dusun Krajan RT 01, RW 01",
+        "produk": "Pulsa, setor tarik tunai",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/QyQMLZ1mf2HXqLMd9",
+        "foto": [
+            "assets/img/umkm/umkm-12-alfan-cell.jpg",
+            "assets/img/umkm/umkm-12-alfan-cell-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-13-bakso-haji-hasan",
+        "no": 13,
+        "nama": "Bakso Haji Hasan",
+        "kategori": "Makanan",
+        "kategori_asli": "Makanan/FnB",
+        "jam_buka": "Setiap Hari, 09.00–17.30",
+        "alamat": "Dusun Krajan RT 01, RW 01",
+        "produk": "Bakso",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/z1GTk1PyN3VuCiWx6",
+        "foto": [
+            "assets/img/umkm/umkm-13-bakso-haji-hasan.jpg",
+            "assets/img/umkm/umkm-13-bakso-haji-hasan-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-14-pom-mini-taringgul-tonggoh",
+        "no": 14,
+        "nama": "Pom Mini Taringgul Tonggoh",
+        "kategori": "Lainnya",
+        "kategori_asli": "Pom mini",
+        "jam_buka": "Setiap Hari, 06.00–18.00",
+        "alamat": "Dusun Krajan RT 04, RW 01",
+        "produk": "Bensin",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/ecY3ssrKAMGd2AGL6",
+        "foto": "assets/img/umkm/umkm-14-pom-mini-taringgul-tonggoh.jpg"
+        },
+        {
+        "id": "umkm-15-warung-ibu-neah",
+        "no": 15,
+        "nama": "Warung Ibu Neah",
+        "kategori": "Sembako",
+        "kategori_asli": "Warung sembako",
+        "jam_buka": "Setiap hari, 05.00–21.00",
+        "alamat": "Dusun Peuntas RW 04, RT 13",
+        "produk": "Makanan ringan, sembako, rokok, minuman, bumbu, kerupuk, kue, kopi",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/Z9KAdbj6v81cvcUU9",
+        "foto": "assets/img/umkm/umkm-15-warung-ibu-neah.jpg"
+        },
+        {
+        "id": "umkm-16-toko-nur",
+        "no": 16,
+        "nama": "Toko Nur",
+        "kategori": "Sembako",
+        "kategori_asli": "Warung sembako",
+        "jam_buka": "Setiap Hari, 05.00–00.00",
+        "alamat": "Dusun Peuntas RT 13, RW 04",
+        "produk": "Makanan ringan, BBM, kerupuk, sembako, es krim, minuman",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/e8i8oNqfZnWxRjdW9",
+        "foto": "assets/img/umkm/umkm-16-toko-nur.jpg"
+        },
+        {
+        "id": "umkm-17-warung-teh-rina",
+        "no": 17,
+        "nama": "Warung Teh Rina",
+        "kategori": "Sembako",
+        "kategori_asli": "Warung sembako & makanan",
+        "jam_buka": "Setiap Hari, 06.00–00.00",
+        "alamat": "Dusun Peuntas RT 13, RW 04",
+        "produk": "Sembako, minuman, es krim, seblak",
+        "no_wa": "6287764435034",
+        "link_wa": "https://wa.me/6287764435034",
+        "link_gmaps": "https://goo.gl/maps/e8i8oNqfZnWxRjdW9",
+        "foto": [
+            "assets/img/umkm/umkm-17-warung-teh-rina.jpg",
+            "assets/img/umkm/umkm-17-warung-teh-rina-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-18-warung-pak-hamdani",
+        "no": 18,
+        "nama": "Warung Pak Hamdani",
+        "kategori": "Makanan",
+        "kategori_asli": "Warung kopi",
+        "jam_buka": "Setiap Hari, 06.00–18.00",
+        "alamat": "Dusun Peuntas RT 12, RW 04",
+        "produk": "Kopi, Makanan Ringan, Minuman",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/QtomSZVzsmNCJC4r9",
+        "foto": "assets/img/umkm/umkm-18-warung-pak-hamdani.jpg"
+        },
+        {
+        "id": "umkm-19-warung-bu-mala",
+        "no": 19,
+        "nama": "Warung Bu Mala",
+        "kategori": "Sembako",
+        "kategori_asli": "Warung makanan ringan",
+        "jam_buka": "Setiap Hari, 06.00–21.00",
+        "alamat": null,
+        "produk": "Makanan ringan, sembako",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/QYotfPZfQoxNDf2W6",
+        "foto": "assets/img/umkm/umkm-19-warung-bu-mala.jpg"
+        },
+        {
+        "id": "umkm-20-paija-jahra",
+        "no": 20,
+        "nama": "Paija Jahra",
+        "kategori": "Sembako",
+        "kategori_asli": "Warung sembako",
+        "jam_buka": "Setiap Hari, 08.00–21.00",
+        "alamat": "Dusun Peuntas RT 13, RW 04",
+        "produk": "Sembako, minuman, makanan ringan",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/NHN9uoVUMn7zEBJ86",
+        "foto": "assets/img/umkm/umkm-20-paija-jahra.jpg"
+        },
+        {
+        "id": "umkm-21-toko-karya-laksana",
+        "no": 21,
+        "nama": "Toko Karya Laksana",
+        "kategori": "Sembako",
+        "kategori_asli": "Grosir",
+        "jam_buka": "Setiap Hari, 08.00–17.00",
+        "alamat": "Dusun Krajan RT 08, RW 02",
+        "produk": "Jajanan",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/Vz3SrsJjHrGXo6i26",
+        "foto": [
+            "assets/img/umkm/umkm-21-toko-karya-laksana.jpg",
+            "assets/img/umkm/umkm-21-toko-karya-laksana-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-22-bubur-ayam-ozan",
+        "no": 22,
+        "nama": "Bubur Ayam Ozan",
+        "kategori": "Makanan",
+        "kategori_asli": "Makanan",
+        "jam_buka": "Sedang renovasi",
+        "alamat": null,
+        "produk": "Bubur Ayam",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/JDpGkYUjefoYVQN1A",
+        "foto": "assets/img/umkm/umkm-22-bubur-ayam-ozan.jpg"
+        },
+        {
+        "id": "umkm-23-daffa-kuliner",
+        "no": 23,
+        "nama": "Daffa Kuliner",
+        "kategori": "Makanan",
+        "kategori_asli": "Makanan",
+        "jam_buka": "Setiap Hari, 08.00–17.00",
+        "alamat": "Dusun Krajan RT 08, RW 03",
+        "produk": "Ayam Bakar, Ayam Geptrek, Ayam Goreng, Ayam Penyet, Nasi Goreng, Nila Bakar, Karedok, Sate Maranggi, dll",
+        "no_wa": "6281904187481",
+        "link_wa": "https://wa.me/6281904187481",
+        "link_gmaps": "https://maps.app.goo.gl/QsgnsZffQGA6eWqG9",
+        "foto": "assets/img/umkm/umkm-23-daffa-kuliner.jpg"
+        },
+        {
+        "id": "umkm-24-sembilan-cell",
+        "no": 24,
+        "nama": "Sembilan Cell",
+        "kategori": "Cell / Konter",
+        "kategori_asli": "Toko Ponsel",
+        "jam_buka": "Senin–Sabtu, 09.00–22.00",
+        "alamat": "Dusun Krajan RT 08, RW 03",
+        "produk": "Pulsa, setor tarik tunai, Aksesoris HP, Minuman",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/sMw6y4DLQ2K62mTw8",
+        "foto": [
+            "assets/img/umkm/umkm-24-sembilan-cell.png",
+            "assets/img/umkm/umkm-24-sembilan-cell-2.png"
+        ]
+        },
+        {
+        "id": "umkm-25-mulya-anugrah",
+        "no": 25,
+        "nama": "Mulya Anugrah",
+        "kategori": "Bangunan",
+        "kategori_asli": "Toko Bakan Bangunan",
+        "jam_buka": "Setiap Hari, 07.00–16.00",
+        "alamat": "Dusun Krajan RT 09, RW 04",
+        "produk": "Paku, Kayu, Meteran, Mata Gerinda, dll",
+        "no_wa": "62895353944993",
+        "link_wa": "https://wa.me/62895353944993",
+        "link_gmaps": "https://maps.app.goo.gl/DwECoCUWMgZqsokT6",
+        "foto": "assets/img/umkm/umkm-25-mulya-anugrah.png"
+        },
+        {
+        "id": "umkm-26-mamah-aden",
+        "no": 26,
+        "nama": "Mamah aden",
+        "kategori": "Makanan",
+        "kategori_asli": "Makanan",
+        "jam_buka": "Setiap Hari, 08.00–21.00",
+        "alamat": "Dusun Krajan RT 08, RW 03",
+        "produk": "Bakso",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/eAW8eHu4AHRPcKDVA",
+        "foto": [
+            "assets/img/umkm/umkm-26-mamah-aden.jpg",
+            "assets/img/umkm/umkm-26-mamah-aden-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-27-berkah",
+        "no": 27,
+        "nama": "Berkah",
+        "kategori": "Sembako",
+        "kategori_asli": "Toko Plastik dan Bahan Kue",
+        "jam_buka": "Jam buka belum pasti (perlu konfirmasi ulang)",
+        "alamat": null,
+        "produk": "Plastik, bahan kue",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/vx5HsRvQEpD5ewrW8",
+        "foto": "assets/img/umkm/umkm-27-berkah.jpg"
+        },
+        {
+        "id": "umkm-28-berkah-tobacco",
+        "no": 28,
+        "nama": "Berkah Tobacco",
+        "kategori": "Cell / Konter",
+        "kategori_asli": "Ahli Tembakau dan Cell",
+        "jam_buka": "Setiap Hari, 07.00–23.00",
+        "alamat": "Dusun Krajan RT 09, RW 03",
+        "produk": "Tembakau, Pulsa, Aksesoris HP",
+        "no_wa": "62895618753280",
+        "link_wa": "https://wa.me/62895618753280",
+        "link_gmaps": "https://maps.app.goo.gl/shWPxSft3wZLQ6Nt7",
+        "foto": [
+            "assets/img/umkm/umkm-28-berkah-tobacco.jpg",
+            "assets/img/umkm/umkm-28-berkah-tobacco-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-29-maju-jaya",
+        "no": 29,
+        "nama": "Maju Jaya",
+        "kategori": "Jasa",
+        "kategori_asli": "Cuci Steam Kendaraan",
+        "jam_buka": "Setiap Hari, 09.00–17.00",
+        "alamat": "Dusun Peuntas RT 08, RW 04",
+        "produk": "Jasa Cuci Mobil dan Motor",
+        "no_wa": "6289628735445",
+        "link_wa": "https://wa.me/6289628735445",
+        "link_gmaps": "https://maps.app.goo.gl/izMndwKCJTFf8ZaB9",
+        "foto": "assets/img/umkm/umkm-29-maju-jaya.jpg"
+        },
+        {
+        "id": "umkm-30-setia",
+        "no": 30,
+        "nama": "Setia",
+        "kategori": "Makanan",
+        "kategori_asli": "Makanan",
+        "jam_buka": "Rabu–Senin, 11.00–18.00 [Selasa Tutup]",
+        "alamat": "Dusun Peuntas RT 11, RW 04",
+        "produk": "Seblak",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/siz5Z3XYPsRrYjPG9",
+        "foto": [
+            "assets/img/umkm/umkm-30-setia.jpg",
+            "assets/img/umkm/umkm-30-setia-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-31-mammochi",
+        "no": 31,
+        "nama": "Mammochi",
+        "kategori": "Sembako",
+        "kategori_asli": "Toko Bahan Makanan",
+        "jam_buka": "Setiap Hari, 06.00–17.00",
+        "alamat": "Dusun Peuntas RT 11, RW 04",
+        "produk": "Sembako, Minuman, Makanan Ringan, Eskrim",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/3h9yEHs9C3Mtriey7",
+        "foto": "assets/img/umkm/umkm-31-mammochi.jpg"
+        },
+        {
+        "id": "umkm-32-anneka",
+        "no": 32,
+        "nama": "Anneka",
+        "kategori": "Jasa",
+        "kategori_asli": "Toko Elektronik",
+        "jam_buka": "Setiap Hari, 09.30–21.00",
+        "alamat": "Dusun Peuntas RT 16, RW 04",
+        "produk": "Jasa Print, Alat elektronik",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/7zE45krFFW8G3d7t7",
+        "foto": "assets/img/umkm/umkm-32-anneka.jpg"
+        },
+        {
+        "id": "umkm-33-toko-atin",
+        "no": 33,
+        "nama": "Toko Atin",
+        "kategori": "Sembako",
+        "kategori_asli": "Toko Bahan Makanan",
+        "jam_buka": "Setiap Hari, 05.00–20.00",
+        "alamat": "Dusun Peuntas RT 12, RW 04",
+        "produk": "Makanan Ringan, Minuman",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/CARqYvqBTB4DvUyCA",
+        "foto": [
+            "assets/img/umkm/umkm-33-toko-atin.jpg",
+            "assets/img/umkm/umkm-33-toko-atin-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-34-warung-teh-tika",
+        "no": 34,
+        "nama": "Warung Teh Tika",
+        "kategori": "Sembako",
+        "kategori_asli": "Toko Bahan Makanan",
+        "jam_buka": "Setiap Hari, 07.00–18.00",
+        "alamat": "Dusun Krajan RT 014, RW 001",
+        "produk": "Makanan Ringan, Minuman, Risol Mayo",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://goo.gl/maps/3Uj9Z5PcNMMNhZ4v8",
+        "foto": [
+            "assets/img/umkm/umkm-34-warung-teh-tika.jpg",
+            "assets/img/umkm/umkm-34-warung-teh-tika-2.jpg"
+        ]
+
+        },
+        {
+        "id": "umkm-35-zam-zam-koi-purwakarta",
+        "no": 35,
+        "nama": "Zam Zam Koi Purwakarta",
+        "kategori": "Lainnya",
+        "kategori_asli": "Peternakan Ikan",
+        "jam_buka": "Setiap Hari, 05,00–00.00",
+        "alamat": "Dusun Krajan RT 12, RW 04",
+        "produk": "Ikan Koi",
+        "no_wa": "6283122559533",
+        "link_wa": "https://wa.me/6283122559533",
+        "link_gmaps": "https://maps.app.goo.gl/9W3BkwMPCDvszUjD7",
+        "foto": "assets/img/umkm/umkm-35-zam-zam-koi-purwakarta.jpg"
+        },
+        {
+        "id": "umkm-36-toko-haji-edi",
+        "no": 36,
+        "nama": "Toko Haji Edi",
+        "kategori": "Sembako",
+        "kategori_asli": "Toko Bahan Makanan",
+        "jam_buka": "Setiap Hari, 05,00–00.00",
+        "alamat": "Kampung Peuntas RT 011, RW 04",
+        "produk": "Makanan Ringan, Minuman, Ekrim",
+        "no_wa": null,
+        "link_wa": null,
+        "link_gmaps": "https://maps.app.goo.gl/gBNENTZe1Tm4C67A7",
+        "foto": [
+            "assets/img/umkm/umkm-36-toko-haji-edi.jpg",
+            "assets/img/umkm/umkm-36-toko-haji-edi-2.jpg"
+        ]
+        },
+        {
+        "id": "umkm-37-jajanan-lalada",
+        "no": 37,
+        "nama": "Jajanan Lalada",
+        "kategori": "Makanan",
+        "kategori_asli": "Makanan",
+        "jam_buka": "Setiap Jumat, di pasar",
+        "alamat": "Dusun Krajan RT 01, RW 01",
+        "produk": "Dimsum, Dumpling, Asinan Buah, Pangsit Kuah, Mie Lalada",
+        "no_wa": "6283816775977",
+        "link_wa": "https://wa.me/6283816775977",
+        "link_gmaps": null,
+        "foto": "assets/img/umkm/umkm-37-lalada.png"
+        }
+    ]
+    }

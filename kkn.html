@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tentang KKN — Desa Taringgul Tonggoh</title>
+<meta name="description" content="Kenali kegiatan, struktur organisasi, dan program kerja KKN Universitas Singaperbangsa Karawang di Desa Taringgul Tonggoh, Wanayasa, Purwakarta.">
+<meta property="og:title" content="Tentang KKN — Desa Taringgul Tonggoh">
+<meta property="og:description" content="Struktur organisasi, program kerja, dan dokumentasi kegiatan KKN Unsika di Desa Taringgul Tonggoh.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav id="nav">
+  <a href="index.html" class="logo"><img src="assets/img/brand/logo-desa-nav.png" alt="Logo Desa Taringgul Tonggoh" class="logo-mark">Taringgul Tonggoh</a>
+  <div class="navlinks" id="navLinks">
+    <a href="index.html">Beranda</a>
+    <a href="index.html#umkm">UMKM</a>
+    <a href="index.html#wisata">Wisata</a>
+    <a href="index.html#panduan">Panduan berkunjung</a>
+    <a href="kkn.html" class="active">Tentang KKN</a>
+  </div>
+  <button type="button" class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">
+    <div class="nav-toggle-icon"><span></span><span></span><span></span></div>
+  </button>
+</nav>
+
+<section class="hero-kkn">
+  <div class="halftone"></div>
+  <div class="starburst sb1"></div>
+  <div class="hero-inner">
+    <div class="hero-badge">Kuliah Kerja Nyata</div>
+    <h1>Tim <span>KKN Taringgul Tonggoh</span></h1>
+    <p id="kknPeriode" style="font-weight:700;">–</p>
+  </div>
+</section>
+
+<section id="tentang">
+  <div class="wrap">
+    <div class="section-head reveal about-kkn">
+      <div class="sticker">Tentang program</div>
+      <h2>Mengabdi di Taringgul Tonggoh</h2>
+      <p id="kknDesc">Memuat deskripsi…</p>
+    </div>
+  </div>
+</section>
+
+<section class="umkm-section" id="struktur">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="sticker blue">Meet our team</div>
+      <h2>Struktur Organisasi</h2>
+      <p>Klik tiap anggota untuk melihat detail jabatannya.</p>
+    </div>
+    <div id="strukturContainer">
+      <!-- divisi & anggota di-render oleh kkn.js -->
+    </div>
+  </div>
+</section>
+
+<section class="proker-section" id="proker">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="sticker red">Program kerja</div>
+      <h2>Apa yang kami kerjakan</h2>
+      <p>Klik kartu untuk melihat detail tiap program kerja.</p>
+    </div>
+    <div class="proker-grid" id="prokerGrid">
+      <!-- proker di-render oleh kkn.js -->
+    </div>
+  </div>
+</section>
+
+<section id="galeri">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="sticker">Dokumentasi</div>
+      <h2>Galeri Kegiatan</h2>
+      <p>Momen-momen selama masa pengabdian di desa.</p>
+    </div>
+    <div class="galeri-grid" id="galeriGrid">
+      <!-- galeri di-render oleh kkn.js -->
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-logos">
+    <img src="assets/img/brand/logo-desa.png" alt="Logo Desa Taringgul Tonggoh" class="foot-logo">
+    <img src="assets/img/brand/slogan-bergerak.png" alt="Taringgul Tonggoh Bergerak" class="foot-logo foot-logo-slogan">
+  </div>
+  <div class="foot-brand">Taringgul Tonggoh</div>
+  <p>Desa Taringgul Tonggoh, Kecamatan Wanayasa, Kabupaten Purwakarta, Jawa Barat</p>
+  <div class="foot-line">Website ini dikelola oleh perangkat desa, dibangun bersama mahasiswa KKN Universitas Singaperbangsa Karawang</div>
+</footer>
+
+<!-- ===== Overlay detail (Anggota & Proker) ===== -->
+<div class="overlay-backdrop" id="overlayBackdrop" role="dialog" aria-modal="true">
+  <div class="overlay-modal" id="overlayContent">
+    <!-- konten overlay di-render dinamis oleh kkn.js -->
+  </div>
+</div>
+
+<script src="assets/js/kkn.js"></script>
+</body>
+</html>

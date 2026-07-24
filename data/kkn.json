@@ -1,0 +1,147 @@
+{
+  "info": {
+    "nama_kkn": "KKN Taringgul Tonggoh 2026",
+    "universitas": "Universitas Singaperbangsa Karawang",
+    "periode": "26 Juni – 31 Juli 2026",
+    "deskripsi": "Kuliah Kerja Nyata mahasiswa Universitas Singaperbangsa Karawang di Desa Taringgul Tonggoh, Kecamatan Wanayasa, Kabupaten Purwakarta."
+  },
+  "divisi": [
+    {
+      "id": "dpl",
+      "nama": "Dosen Pembimbing Lapangan",
+      "anggota": [
+        {
+          "id": "anggota-dpl-01",
+          "nama": "Rini Mayasari, M. Kom",
+          "jabatan": "Dosen Pembimbing Lapangan",
+          "foto": "assets/img/kkn/anggota-dpl-01.png"
+        }
+      ]
+    },
+    {
+      "id": "bph",
+      "nama": "BPH (Badan Pengurus Harian)",
+      "anggota": [
+        {
+          "id": "anggota-bph-01",
+          "nama": "Isham Vidia Herlambang",
+          "jabatan": "Koordinator Mahasiswa Desa",
+          "foto": "assets/img/kkn/anggota-bph-01.png"
+        },
+        {
+          "id": "anggota-bph-02",
+          "nama": "Inne Febriyanti",
+          "jabatan": "Sekretaris",
+          "foto": "assets/img/kkn/anggota-bph-02.png"
+        },
+        {
+          "id": "anggota-bph-03",
+          "nama": "Zalwa Khairunnisa",
+          "jabatan": "Bendahara",
+          "foto": "assets/img/kkn/anggota-bph-03.png"
+        }
+      ]
+    },
+    {
+      "id": "acara",
+      "nama": "Divisi Acara",
+      "anggota": [
+        {
+          "id": "anggota-acara-01",
+          "nama": "Rahmah Nabila",
+          "jabatan": "Koordinator Divisi Acara",
+          "foto": "assets/img/kkn/anggota-acara-01.png"
+        },
+        {
+          "id": "anggota-acara-02",
+          "nama": "Daffia Dwi Ananda",
+          "jabatan": "Anggota Divisi Acara",
+          "foto": "assets/img/kkn/anggota-acara-02.png"
+        },
+        {
+          "id": "anggota-acara-03",
+          "nama": "Naufal Fadli Pratama",
+          "jabatan": "Anggota Divisi Acara",
+          "foto": "assets/img/kkn/anggota-acara-03.png"
+        }
+      ]
+    },
+    {
+      "id": "humas",
+      "nama": "Divisi Humas",
+      "anggota": [
+        {
+          "id": "anggota-humas-01",
+          "nama": "Izzat Abdullah Faqih",
+          "jabatan": "Koordinator Humas",
+          "foto": "assets/img/kkn/anggota-humas-01.png"
+        },
+        {
+          "id": "anggota-humas-02",
+          "nama": "Winda Fitriany Siburian",
+          "jabatan": "Anggota Divisi Humas",
+          "foto": "assets/img/kkn/anggota-humas-02.png"
+        }
+      ]
+    },
+    {
+      "id": "logsum",
+      "nama": "Divisi Logsum",
+      "anggota": [
+        {
+          "id": "anggota-logsum-01",
+          "nama": "Fransiska Xaveriana S. B.",
+          "jabatan": "Koordinator Logsum",
+          "foto": "assets/img/kkn/anggota-logsum-01.png"
+        },
+        {
+          "id": "anggota-logsum-02",
+          "nama": "Rafi Putra Riyandri",
+          "jabatan": "Anggota Divisi Logsum",
+          "foto": "assets/img/kkn/anggota-logsum-02.png"
+        },
+        {
+          "id": "anggota-logsum-03",
+          "nama": "Natasya Dwi Andhika",
+          "jabatan": "Anggota Divis Logsum",
+          "foto": "assets/img/kkn/anggota-logsum-03.png"
+        }
+      ]
+    },
+    {
+      "id": "pdd",
+      "nama": "Divisi PDD",
+      "anggota": [
+        {
+          "id": "anggota-pdd-01",
+          "nama": "M. Dzaki Aldi Hafizh",
+          "jabatan": "Koordinator Divisi PDD, Web Builder",
+          "foto": "assets/img/kkn/anggota-pdd-01.png"
+        },
+        {
+          "id": "anggota-pdd-02",
+          "nama": "Nabil Sultan Hafizh S.",
+          "jabatan": "Anggota Divisi PDD",
+          "foto": "assets/img/kkn/anggota-pdd-02.png"
+        }
+      ]
+    }
+  ],
+  "proker": [
+    {
+      "id": "proker-01-contoh",
+      "nama": "Nama Program Kerja",
+      "divisi": "Divisi Acara",
+      "deskripsi": "Deskripsi singkat mengenai program kerja ini, tujuan, dan sasarannya.",
+      "tanggal": null,
+      "foto": "assets/img/kkn/proker-01-contoh.png"
+    }
+  ],
+  "galeri": [
+    {
+      "id": "galeri-01",
+      "caption": "Deskripsi singkat kegiatan",
+      "foto": "assets/img/kkn/galeri-01.png"
+    }
+  ]
+}
