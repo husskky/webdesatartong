@@ -1,9 +1,11 @@
 Folder PATH listing for volume Windows
-Volume serial number is 000000BF 94F5:BCCE
+Volume serial number is 0000001A 94F5:BCCE
 C:.
 ¦   CNAME
 ¦   index.html
 ¦   kkn.html
+¦   README.md
+¦   struktur-baru.txt
 ¦   struktur.txt
 ¦   
 +---assets
@@ -15,6 +17,15 @@ C:.
 ¦   ¦   ¦       logo-desa-nav.png
 ¦   ¦   ¦       logo-desa.png
 ¦   ¦   ¦       slogan-bergerak.png
+¦   ¦   ¦       
+¦   ¦   +---gallery
+¦   ¦   ¦       1784853333360.jpg
+¦   ¦   ¦       1784853333379.jpg
+¦   ¦   ¦       1784853333391.jpg
+¦   ¦   ¦       1784853333404.jpg
+¦   ¦   ¦       1784853333414.jpg
+¦   ¦   ¦       1784853333432.jpg
+¦   ¦   ¦       IMG-20260714-WA0030.jpg
 ¦   ¦   ¦       
 ¦   ¦   +---hero
 ¦   ¦   ¦       hero-01-sawah-taringgul.jpg

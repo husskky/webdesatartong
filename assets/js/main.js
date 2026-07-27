@@ -8,6 +8,7 @@
 
   let umkmData = [];
   let wisataData = [];
+  let beritaData = [];
   let activeFilter = "Semua";
 
   // ---------- Utilitas ----------
@@ -32,33 +33,64 @@
     return [foto];
   }
 
+  // Terima isi berita sebagai string (dipisah baris kosong) ATAU array, selalu kembalikan array paragraf bersih
+  function normalizeParagraphs(isi) {
+    if (!isi) return [];
+    if (Array.isArray(isi)) return isi.map((p) => String(p).trim()).filter(Boolean);
+    return String(isi)
+      .split(/\n\s*\n/)
+      .map((p) => p.trim())
+      .filter(Boolean);
+  }
+
+  // Format "2026-07-20" -> "20 Juli 2026". Kembalikan string asli kalau formatnya tidak dikenali.
+  function formatTanggal(iso) {
+    if (!iso) return null;
+    const bulan = [
+      "Januari", "Februari", "Maret", "April", "Mei", "Juni",
+      "Juli", "Agustus", "September", "Oktober", "November", "Desember"
+    ];
+    const d = new Date(`${iso}T00:00:00`);
+    if (isNaN(d.getTime())) return iso;
+    return `${d.getDate()} ${bulan[d.getMonth()]} ${d.getFullYear()}`;
+  }
+
   // ---------- Fetch data ----------
   async function loadData() {
     try {
-      const [umkmRes, wisataRes, desaRes] = await Promise.all([
+      const [umkmRes, wisataRes, desaRes, beritaRes] = await Promise.all([
         fetch("data/umkm.json"),
         fetch("data/wisata.json"),
-        fetch("data/desa.json")
+        fetch("data/desa.json"),
+        fetch("data/berita.json")
       ]);
 
       checkResponse(umkmRes, "data/umkm.json");
       checkResponse(wisataRes, "data/wisata.json");
       checkResponse(desaRes, "data/desa.json");
+      checkResponse(beritaRes, "data/berita.json");
 
       const umkmJson = await safeJson(umkmRes, "data/umkm.json");
       const wisataJson = await safeJson(wisataRes, "data/wisata.json");
       const desaJson = await safeJson(desaRes, "data/desa.json");
+      const beritaJson = await safeJson(beritaRes, "data/berita.json");
       umkmData = umkmJson.umkm || [];
       wisataData = wisataJson.wisata || [];
+      // Berita terbaru tampil paling atas
+      beritaData = (beritaJson.berita || []).slice().sort((a, b) => {
+        return String(b.tanggal || "").localeCompare(String(a.tanggal || ""));
+      });
 
       renderStats(desaJson);
       renderFilterChips(computeKategoriSummary(umkmData));
       renderUmkmGrid();
       renderWisataGrid();
+      renderBeritaGrid();
     } catch (err) {
       console.error("Gagal memuat data:", err);
       showLoadError("umkmGrid", err.message);
       showLoadError("wisataGrid", err.message);
+      showLoadError("beritaGrid", err.message);
     }
   }
 
@@ -172,6 +204,60 @@
       const card = buildItemCard(item, "wisata", idx);
       grid.appendChild(card);
     });
+  }
+
+  // ---------- Render kartu Berita ----------
+  function renderBeritaGrid() {
+    const grid = document.getElementById("beritaGrid");
+    if (!grid) return;
+
+    grid.innerHTML = "";
+
+    if (beritaData.length === 0) {
+      grid.appendChild(el("div", "empty-state", "Belum ada berita yang dipublikasikan."));
+      return;
+    }
+
+    beritaData.forEach((item, idx) => {
+      grid.appendChild(buildBeritaCard(item, idx));
+    });
+  }
+
+  function buildBeritaCard(item, idx) {
+    const card = el("button", "item-card reveal" + (idx % 3 === 1 ? " reveal-delay1" : idx % 3 === 2 ? " reveal-delay2" : ""));
+    card.type = "button";
+    card.setAttribute("aria-haspopup", "dialog");
+
+    const photoWrap = el("div", "item-photo");
+    const fotos = normalizeFotos(item.foto);
+    if (fotos.length > 0) {
+      const img = document.createElement("img");
+      img.src = fotos[0];
+      img.alt = item.judul || "Berita desa";
+      img.loading = "lazy";
+      img.onerror = function () {
+        photoWrap.innerHTML = "Foto belum tersedia";
+      };
+      photoWrap.appendChild(img);
+    } else {
+      photoWrap.textContent = "Foto belum tersedia";
+    }
+    const tanggalFormatted = formatTanggal(item.tanggal);
+    if (tanggalFormatted) {
+      photoWrap.appendChild(el("div", "item-badge-date", escapeHtml(tanggalFormatted)));
+    }
+    card.appendChild(photoWrap);
+
+    const body = el("div", "item-body");
+    body.appendChild(el("div", "item-cat", escapeHtml(item.kategori || "Berita")));
+    body.appendChild(el("div", "item-name", escapeHtml(item.judul || "Tanpa judul")));
+    body.appendChild(el("div", "item-desc", escapeHtml(item.ringkasan || "Ringkasan belum tersedia.")));
+    body.appendChild(el("div", "item-hint", "Baca selengkapnya →"));
+    card.appendChild(body);
+
+    card.addEventListener("click", () => openBeritaOverlay(item));
+
+    return card;
   }
 
   // ---------- Builder kartu (dipakai UMKM & Wisata) ----------
@@ -384,6 +470,60 @@
 
   function metaRow(icon, text, muted) {
     return `<div class="overlay-meta-row${muted ? " muted" : ""}"><span class="overlay-meta-icon">${icon}</span><span>${text}</span></div>`;
+  }
+
+  // ---------- Overlay: Berita ----------
+  function openBeritaOverlay(item) {
+    const backdrop = document.getElementById("overlayBackdrop");
+    const content = document.getElementById("overlayContent");
+    const modal = backdrop ? backdrop.querySelector(".overlay-modal") : null;
+    if (!backdrop || !content) return;
+
+    currentFotos = normalizeFotos(item.foto);
+    currentFotoIndex = 0;
+
+    lastFocusedEl = document.activeElement;
+    content.innerHTML = buildBeritaOverlayHtml(item);
+    if (modal) modal.className = "overlay-modal theme-berita";
+    backdrop.classList.add("open");
+    document.body.style.overflow = "hidden";
+
+    initCarousel(content);
+
+    const closeBtn = content.querySelector(".overlay-close");
+    if (closeBtn) closeBtn.focus();
+  }
+
+  function buildBeritaOverlayHtml(item) {
+    const judul = escapeHtml(item.judul || "Tanpa judul");
+    const kategori = escapeHtml(item.kategori || "Berita");
+    const tanggalFormatted = formatTanggal(item.tanggal);
+    const photoHtml = buildCarouselHtml(judul);
+
+    const paragraphs = normalizeParagraphs(item.isi);
+    const isiHtml =
+      paragraphs.length > 0
+        ? paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join("")
+        : `<p>${escapeHtml(item.ringkasan || "Isi berita belum tersedia.")}</p>`;
+
+    let metaRows = "";
+    metaRows += tanggalFormatted
+      ? metaRow("🗓️", escapeHtml(tanggalFormatted))
+      : metaRow("🗓️", "Tanggal belum ditentukan", true);
+    if (item.penulis) {
+      metaRows += metaRow("✍️", escapeHtml(item.penulis));
+    }
+
+    return `
+      <button type="button" class="overlay-close" aria-label="Tutup" data-close>&times;</button>
+      ${photoHtml}
+      <div class="overlay-body">
+        <div class="overlay-cat green">${kategori}</div>
+        <h3 class="overlay-name">${judul}</h3>
+        <div class="overlay-meta">${metaRows}</div>
+        <div class="overlay-berita-isi">${isiHtml}</div>
+      </div>
+    `;
   }
 
   // ---------- Overlay event bindings ----------

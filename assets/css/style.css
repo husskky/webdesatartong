@@ -179,6 +179,7 @@ section{padding:88px 0;position:relative;}
 }
 .sticker.blue{background:var(--biru);color:var(--off);}
 .sticker.red{background:var(--merah);color:var(--off);}
+.sticker.green{background:var(--hijau);color:var(--off);}
 .section-head h2{font-size:36px;margin-bottom:10px;}
 .section-head p{color:#4A4A44;font-size:15px;}
 
@@ -361,6 +362,15 @@ section{padding:88px 0;position:relative;}
 
 .see-all{text-align:center;margin-top:38px;}
 
+/* ---------- Berita section ---------- */
+.berita-section{background:var(--off2);border-top:3px solid var(--ink);border-bottom:3px solid var(--ink);}
+.item-badge-date{
+  position:absolute;top:8px;left:8px;
+  background:rgba(26,26,26,0.7);color:var(--off);
+  font-size:10.5px;font-weight:700;
+  padding:3px 8px;border-radius:20px;
+}
+
 .empty-state{
   grid-column:1/-1;text-align:center;padding:40px 20px;color:#6b6b63;font-size:14px;
 }
@@ -528,9 +538,11 @@ footer .foot-line{opacity:0.65;margin-top:22px;padding-top:22px;border-top:1px s
 
 .overlay-modal.theme-anggota{border-top:6px solid var(--biru);}
 .overlay-modal.theme-proker{border-top:6px solid var(--merah);}
+.overlay-modal.theme-berita{border-top:6px solid var(--hijau);}
 
 .overlay-cat.blue{background:var(--biru);color:var(--off);}
 .overlay-cat.red{background:var(--merah);color:var(--off);}
+.overlay-cat.green{background:var(--hijau);color:var(--off);}
 
 .overlay-body{padding:26px 26px 28px;}
 .overlay-cat{
@@ -540,6 +552,9 @@ footer .foot-line{opacity:0.65;margin-top:22px;padding-top:22px;border-top:1px s
 }
 .overlay-name{font-size:26px;margin-bottom:14px;}
 .overlay-desc{font-size:14.5px;color:#3a3a35;margin-bottom:20px;line-height:1.65;}
+
+.overlay-berita-isi p{font-size:14.5px;color:#3a3a35;line-height:1.7;margin-bottom:14px;}
+.overlay-berita-isi p:last-child{margin-bottom:0;}
 
 .overlay-meta{display:flex;flex-direction:column;gap:10px;margin-bottom:22px;}
 .overlay-meta-row{display:flex;gap:10px;font-size:13.5px;color:#3a3a35;align-items:flex-start;}
