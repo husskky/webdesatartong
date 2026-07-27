@@ -1,31 +1,4 @@
 {
   "berita": [
-    {
-      "id": "berita-01-contoh",
-      "judul": "Contoh Judul Berita — Silakan Edit atau Hapus",
-      "tanggal": "2026-07-20",
-      "kategori": "Pengumuman",
-      "penulis": "Pemerintah Desa Taringgul Tonggoh",
-      "ringkasan": "Ini contoh ringkasan singkat (1-2 kalimat) yang tampil di kartu berita pada halaman utama.",
-      "isi": [
-        "Ini paragraf pertama dari isi berita lengkap. Tulisan ini akan muncul saat kartu berita diklik dan overlay detail terbuka.",
-        "Tambahkan paragraf baru dengan menambahkan string baru ke dalam array 'isi'. Setiap string akan otomatis dijadikan satu paragraf terpisah."
-      ],
-      "foto": [
-        "assets/img/berita/berita-01-contoh.jpg"
-      ]
-    },
-    {
-      "id": "berita-02-contoh-tanpa-foto",
-      "judul": "Contoh Berita Tanpa Foto",
-      "tanggal": "2026-07-15",
-      "kategori": "Kegiatan",
-      "penulis": null,
-      "ringkasan": "Foto bersifat opsional — jika field 'foto' dikosongkan (array kosong atau dihapus), kartu akan otomatis menampilkan placeholder 'Foto belum tersedia'.",
-      "isi": [
-        "Field 'penulis' juga opsional, boleh diisi null jika tidak ingin ditampilkan."
-      ],
-      "foto": []
-    }
   ]
 }
